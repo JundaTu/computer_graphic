@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>ColoredMulti-Object</title>
+     <link rel="stylesheet" type="text/css" href="JundaTu_ProjA.css"/>
+  </head>
+
+  <body onload="main()">
+    <ol class = 'note'>
+      <li>press "spin<<" and "spin>>" buttons to change the speed to graphic moving.</li>
+      <li>click the canvas to chagne the location of center of planetary sysyem.</li>
+      <li>press "run/stop" button to make graphic move or stop.</li>
+      <li>keep pressing the left mouse button to drag graphic to obserce the graphic in different viwe.</li>
+      <li>pressing "Space" on keyboard .to make the graphic run or stop</li>
+    </ol>
+    <button type="button" onclick="spinDown()" class="click">Spin << </button>
+    <button type="button" onclick="runStop()" class="click"> Run/Stop</button>
+    <button type="button" onclick="spinUp()" class="click">Spin >> </button>
+    <br></br>
+    <canvas id="webgl" width="500" height="500">
+    Please use a browser that supports "canvas"
+    </canvas>
+    
+    <p>
+      
+
+		<! these commands create a push-button withlabels ++ CCW and -- CCW.
+			When users click the button, call the function name held in 'onclick'>
+    </p>
+    <script src="lib/webgl-utils.js"    > </script>
+    <script src="lib/webgl-debug.js"    > </script>
+    <script src="lib/cuon-utils.js"     > </script>
+    <script src="lib/cuon-matrix-mod.js"> </script>
+    <script src="JundaTu_ProjA.js"    > </script>
+  </body>
+</html>

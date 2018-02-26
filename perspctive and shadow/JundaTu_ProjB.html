@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Control Diffuse06</title>
+  </head>
+	<!--	Create the HTML5 'canvas' element in which we will run WebGL
+	-->
+  <body onload="main()">
+    <canvas id="webgl" width="500" height="500">
+    Please use a browser that supports "canvas"
+    </canvas>
+	<ol class = 'note'>
+      <li>use "<" and ">" to move left and right</li>
+      <li>use up arrow and down get closer or farther.</li>
+      <li>use H and L of keyboard to change the exy_z.</li>
+      <li>use A and D to turn around</li>
+      <li>use W and S look up and down</li>
+      <!-- <li>use W and S to change the z value of aim</li> -->
+    </ol>
+		
+	<!--	Load in the JavaScript libraries supplied by our textbook 
+			(Matsuda et al., 2013 WebGL Programming Guide) that help us
+			with WebGL programming:
+	-->
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix-quat.js"></script>
+	<!--	Finally, load in our own JavaScript program file.
+	-->
+    <script src="JundaTu_ProjB.js"></script>
+  </body>
+</html>
